@@ -1,0 +1,16 @@
+{
+  "name": "typescrip-class",
+  "version": "1.0.0",
+  "description": "We are learning typescript",
+  "scripts": {
+    "build":"npx tsc",
+    "watch": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul-Hannan786/Typescript.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
