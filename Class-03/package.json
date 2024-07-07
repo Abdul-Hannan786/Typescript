@@ -1,0 +1,12 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "We Are Learning Typescript",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
