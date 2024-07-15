@@ -56,11 +56,11 @@
 
 
 
-// enum TrafficLight {
-//     Green,
-//     Yellow,
-//     Red
-// }
+enum TrafficLight {
+    Green,
+    Yellow,
+    Red
+}
 // const stringKeys = Object
 //     .keys(TrafficLight)
 //     .filter((v) => isNaN(Number(v)))
@@ -91,22 +91,6 @@
 
 
 
-
-enum Color {
-    Red, Green
-}
-
-for (const value in Color) {
-    log(value);
-}
-
-function log(value: string) {
-    if (!isNaN(Number(value))) {
-        return;
-    }
-
-    console.log(`Value: ${value}`);
-}
 
 
 
