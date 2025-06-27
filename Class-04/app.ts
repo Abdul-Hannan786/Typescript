@@ -1,10 +1,10 @@
-import { userName, arr } from "./utils/sum.js";
-import Sum from "./utils/sum.js";
+// import { userName, arr } from "./utils/sum.js";
+// import Sum from "./utils/sum.js";
 
-console.log(userName);
-console.log(arr);
-let count = Sum(5, 5)
-console.log(count);
+// console.log(userName);
+// console.log(arr);
+// let count = Sum(5, 5)
+// console.log(count);
 
 
 
@@ -79,3 +79,27 @@ console.log(count);
 
 // console.log(car1);
 // console.log(car2);
+
+
+interface StudentInterface {
+    userName: string
+    rollNumber: number
+    isMarried: boolean
+}
+
+
+class Student implements StudentInterface{
+    userName
+    rollNumber
+    isMarried
+    constructor(userName: string, rollNumber: number, isMarried: boolean){
+        this.userName = userName
+        this.rollNumber = rollNumber
+        this.isMarried = isMarried
+    }
+}
+
+const student = new Student("Abdul Hannan", 188528, true)
+console.log(student)
+const student2 = new Student("Haider Ali Shah", 188529, true)
+console.log(student2)
